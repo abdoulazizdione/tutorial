@@ -1,0 +1,4 @@
+The dumbest thing I can ever think of.
+This is my first commit (git tut man).
+
+Changes after first commit.

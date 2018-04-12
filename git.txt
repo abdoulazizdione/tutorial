@@ -1,0 +1,28 @@
+Command Line Instructions
+gi cd
+Git global setup
+git config --global user.name "Abdoul Aziz Dione"
+git config --global user.email "abdoul-aziz.dione@etu.utc.fr"
+
+Create a new repository
+git clone git@gitlab.utc.fr:dioneabd/tp3_nf16.git
+cd tp3_nf16
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin masterexit
+
+Existing floder
+cd existing_folder
+git init
+git remote add origin git@gitlab.utc.fr:dioneabd/tp3_nf16.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+Existing Git repository
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin git@gitlab.utc.fr:dioneabd/tp3_nf16.git
+git push -u origin --all
+git push -u origin --tags
